@@ -1,0 +1,171 @@
+@charset "UTF-8";
+.detailsWrap {
+  width: 100%;
+  min-height: 500px;
+}
+
+.detailsWrap .details {
+  width: 1056px;
+  min-height: 500px;
+  margin: 0 auto;
+  position: relative;
+  /*外层盒子和里边图片的一点点样式*/
+  /*放大镜是基于图片大小自动生成的，每次都要把jqueryzoom中img的大小和jqueryzoom盒子大小设置为一样的，不然放大镜滑块有可能溢出*/
+}
+
+.detailsWrap .details .m {
+  width: 500px;
+}
+
+.detailsWrap .details .jqueryzoom {
+  position: relative;
+  padding: 0;
+  border: solid 1px #eaeaea;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.detailsWrap .details .jqueryzoom img {
+  width: 300px;
+}
+
+.detailsWrap .details ul li {
+  float: left;
+  margin-right: 5px;
+}
+
+.detailsWrap .details ul li img {
+  width: 100px;
+  height: 100px;
+}
+
+.detailsWrap .details .cloudzoom-gallery-active {
+  opacity: 0.5;
+}
+
+.detailsWrap .details .decri {
+  width: 400px;
+  position: absolute;
+  right: 150px;
+  top: 50px;
+}
+
+.detailsWrap .details .decri .name {
+  font-family: "Didot","Times New Roman",serif;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #000;
+  font-size: medium;
+  padding: 0 32px;
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 15px;
+  display: block;
+  padding: 0 .78947rem 0 .78947rem;
+  font-size: 1.26316rem;
+  line-height: 1.26316rem;
+  margin-bottom: .52632rem;
+  text-align: center;
+}
+
+.detailsWrap .details .decri .desc {
+  padding: 0 .78947rem 0 .78947rem;
+  font-size: .84211rem;
+  line-height: .84211rem;
+  margin-bottom: 1.05263rem;
+  font-family: "ProximaNovaRegular","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #555;
+  font-size: medium;
+  padding: 0 32px;
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 15px;
+  display: block;
+  text-align: center;
+}
+
+.detailsWrap .details .decri .type {
+  font-family: "ProximaNovaRegular","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #a30101;
+  font-size: medium;
+  padding: 0 15px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+
+.detailsWrap .details .decri .price {
+  font-family: "ProximaNovaRegular","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: none;
+  color: #000;
+  font-size: medium;
+  font-size: 30px;
+  line-height: 28px;
+  letter-spacing: 3px;
+  font-size: 1.26316rem;
+  letter-spacing: .15789rem;
+  line-height: 1.26316rem;
+  text-align: center;
+}
+
+.detailsWrap .details .decri button {
+  display: block;
+  font-family: "ProximaNovaSemibold","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #555;
+  font-size: medium;
+  background-color: #f8f8f8;
+  height: 30px;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid transparent;
+  width: 50%;
+  background-color: #a30101;
+  color: #fff;
+  margin: 30px auto;
+}
+
+.detailsWrap .details .comdetail {
+  width: 100%;
+  height: auto;
+  background: #f8f8f8;
+  clear: both;
+  margin-top: 130px;
+  padding: 20px;
+}
+
+.detailsWrap .details .comdetail dl {
+  border: 0;
+}
+
+.detailsWrap .details .comdetail dl dt {
+  background: #f8f8f8;
+}
+
+.detailsWrap .details .comdetail dl dd {
+  font-family: "ProximaNovaSemibold","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: none;
+  color: #000;
+  font-size: .63158rem;
+  padding: 0 0 1.05263rem 0;
+  letter-spacing: .10526rem;
+  text-align: justify;
+}

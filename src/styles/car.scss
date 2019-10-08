@@ -1,0 +1,125 @@
+.carsWrap{
+    width:100%;
+    
+    .cars{
+        width:1000px;
+        overflow: hidden;
+        margin:0 auto;
+        border-top:1px solid #cec8c8;
+        padding:20px;
+        .left{
+            width:600px;
+            border-right:1px solid #a09696;
+            padding-right:50px;
+            div{
+
+                height:90px;
+                border-bottom:1px dashed #a09696;
+                margin-bottom:20px;
+                img{
+                    width:50px;
+                    height:50px;
+                }
+                .content{
+                    display:block;
+                    float: right;
+                    width:500px;
+                    height:90px;
+                    position: relative;
+                    .name{
+                        font-size: 16px;
+                        font-family: "DidotLightItalic";
+                        line-height: 1;
+                        margin-bottom: 5px;
+                        padding-bottom: 0;
+                        padding: 0 25px 0 0;
+                        text-transform: none;
+                        font-weight: bold;
+                        color: #000;
+                        text-align: left;
+                        letter-spacing: 1px;
+                    }
+                    }
+                    .desc{
+                        font-size: 10px;
+                        line-height: 1.6;
+                        margin-bottom: 10px;
+                        font-family: "ProximaNovaRegular","Helvetica Neue",Helvetica,Arial,sans-serif;
+                        font-weight: 600;
+                        padding-bottom: 0;
+                        font-style: normal;
+                        text-transform: uppercase;
+                        color: #7e7e7e;
+                    }
+                    .price{
+                        color: #000;
+                        font-family: "ProximaNovaRegular","Helvetica Neue",Helvetica,Arial,sans-serif;
+                        padding-top: 5px;
+                        font-size: 16px;
+                        float: left;
+                    }
+                    
+                    button{
+                        border:0;
+                    }
+                    #move, .num{
+                        position: absolute;
+                    }
+                    span{
+                        padding:0 10px;
+                    }
+                    #move{
+                        top:0px;
+                        right:10px;
+                        background: #fff;
+                        font-size: 24px;
+                    }
+                    .num{
+                        bottom : 20px;
+                        right:80px;
+                    }
+                }
+        }
+        .right{
+            width:300px;
+            height: 100%;
+            position: relative;
+            .name{
+                font-size: 14px;
+                display: inline-block;
+                font-family: "ProximaNovaRegular","Helvetica Neue",Helvetica,Arial,sans-serif;
+                line-height: 18px;
+                width:100px;
+                min-height: 40px;
+                margin-right:75px;
+            }
+            .price{
+                font-size: 14px;
+                display: inline-block;
+                font-family: "ProximaNovaRegular","Helvetica Neue",Helvetica,Arial,sans-serif;
+                line-height: 18px;
+                width:100px;
+                min-height: 40px;
+            }
+            .all{
+                margin-top:30px;
+                font-weight:bold;
+            }
+            #checkout{
+                display: inline-block;
+                width:130px;
+                height:35px;
+                color:#fff;
+                background:#a30101;
+                outline: none;
+            }
+        }
+        h3{
+            line-height: 300px;
+            color: darkmagenta;
+            font-size: 30px;
+            font-weight: normal;
+            text-align: center;
+        }
+    }   
+}

@@ -1,0 +1,394 @@
+/* -------------top---------- */
+.topWrap {
+  width: 100%;
+  height: 36px;
+}
+
+.topWrap .top {
+  min-width: 320px;
+  height: 100%;
+  padding: 0 15px;
+  line-height: 45px;
+}
+
+.topWrap .top a {
+  color: #555;
+  display: inline-block;
+}
+
+.topWrap .top a:hover {
+  color: black;
+}
+
+.topWrap .top i {
+  display: inline-block;
+  margin: 0 5px;
+  background: url(../static/images/sprite.png) no-repeat;
+}
+
+.topWrap .top span {
+  padding: 0 20px;
+}
+
+.topWrap .top .like {
+  width: 14px;
+  height: 12px;
+  background-position: -288px -757px;
+}
+
+.topWrap .top .account {
+  width: 21px;
+  height: 21px;
+  background-position: -824px -623px;
+}
+
+.topWrap .top .bag {
+  width: 19px;
+  height: 29px;
+  background-position: -762px -39px;
+}
+
+/* ---------------logo------------------ */
+h1 {
+  width: 100%;
+  height: 65px;
+  clear: both;
+  text-align: center;
+  position: relative;
+}
+
+h1 .logo {
+  display: inline-block;
+  width: 233px;
+  height: 65px;
+  background: url(../static/images/logo.png) no-repeat center center;
+}
+
+h1 .search {
+  position: absolute;
+  right: 135px;
+  top: 50px;
+}
+
+h1 .search input {
+  display: inline-block;
+  height: 24px;
+  border: none;
+  border-bottom: 1px solid #bebebe;
+}
+
+h1 .search button {
+  background: url(../static/images/sprite.png) no-repeat -284px -779px;
+  border: none;
+  border-bottom: 1px solid #bebebe;
+  width: 18px;
+  height: 25px;
+}
+
+/* ----------------------nav------------------- */
+.navWrap {
+  width: 100%;
+  position: relative;
+}
+
+.navWrap .nav {
+  width: 900px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.navWrap .nav li {
+  float: left;
+  padding: 0 30px;
+  line-height: 100px;
+}
+
+.navWrap .secnav {
+  position: absolute;
+  left: 170px;
+  width: 900px;
+  height: 210px;
+  display: none;
+  background: #fafafa;
+  z-index: 3;
+  padding-top: 30px;
+}
+
+.navWrap .secnav div {
+  position: absolute;
+  width: 269px;
+  height: 180px;
+  padding-left: 30px;
+  border-right: 1px solid #a2a2a2;
+}
+
+.navWrap .secnav div h3 {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 40px;
+}
+
+.navWrap .secnav div ul li {
+  float: left;
+  line-height: 36px;
+}
+
+.navWrap .secnav div ul li i {
+  display: inline-block;
+  width: 33px;
+  height: 16px;
+  background: url(../static/images/sprite.png) no-repeat -135px -727px;
+}
+
+.navWrap .secnav div ul li a {
+  padding: 0 20px;
+}
+
+.navWrap .secnav div p {
+  clear: both;
+  line-height: 40px;
+}
+
+.navWrap .secnav .bag {
+  left: 0;
+}
+
+.navWrap .secnav .glasses {
+  left: 300px;
+}
+
+.navWrap .secnav .parts {
+  border: 0;
+  left: 600px;
+}
+
+/* ------------------summer----------------- */
+.summerWrap {
+  clear: both;
+  width: 100%;
+  min-height: 500px;
+}
+
+.summerWrap .summer {
+  width: 1056px;
+  height: 328px;
+  background: url("../static/images/Summer_him_2019.jpg") no-repeat center center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.summerWrap .summer .tohim {
+  width: 528px;
+  height: 328px;
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.summerWrap .summer .tohim h3 {
+  font-weight: normal;
+  color: #fff;
+  letter-spacing: 5px;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 100px;
+  font-family: "Didot","Times New Roman",serif;
+}
+
+.summerWrap .summer .tohim a {
+  display: block;
+  width: 110px;
+  height: 35px;
+  background: #fff;
+  text-align: center;
+  margin: 20px auto;
+  text-align: center;
+  line-height: 35px;
+  font-size: 14px;
+}
+
+.summerWrap .summer .tohim a:hover {
+  background: #a2a2a2;
+  color: #fff;
+}
+
+.summerWrap .best {
+  clear: both;
+  height: 410px;
+  width: 1056px;
+  margin: 20px auto;
+  background: #f2f2f2;
+  position: relative;
+}
+
+.summerWrap .best h2 {
+  font-size: 36px;
+  letter-spacing: 12px;
+  font-weight: normal;
+  font-family: "Didot","Times New Roman",serif;
+  text-align: center;
+  line-height: 76px;
+}
+
+.summerWrap .best a {
+  display: block;
+  width: 160px;
+  height: 35px;
+  background: #a2a2a2;
+  text-align: center;
+  margin: 20px auto;
+  text-align: center;
+  line-height: 35px;
+  font-size: 12px;
+}
+
+.summerWrap .best a:hover {
+  background: #000;
+  color: #fff;
+}
+
+.summerWrap .pick {
+  clear: both;
+  height: 309px;
+  width: 1056px;
+  margin: 0 auto;
+  position: relative;
+  background: url("../static/images/Marqueurs_de_style.jpg") no-repeat center center;
+}
+
+.summerWrap .pick h3 {
+  position: absolute;
+  top: 110px;
+  left: 130px;
+  font-weight: normal;
+  letter-spacing: 5px;
+  font-size: 30px;
+  font-family: "Didot","Times New Roman",serif;
+}
+
+.summerWrap .pick a {
+  position: absolute;
+  top: 160px;
+  left: 130px;
+  display: block;
+  width: 130px;
+  height: 35px;
+  background: #fff;
+  text-align: center;
+  line-height: 35px;
+  font-size: 12px;
+}
+
+.summerWrap .pick a:hover {
+  background: #a2a2a2;
+  color: #fff;
+}
+
+/* ----------footer------------- */
+.footerWrap {
+  width: 100%;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.footerWrap .footer {
+  width: 1056px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.footerWrap .footer .services {
+  height: 180px;
+  width: 100%;
+  position: relative;
+}
+
+.footerWrap .footer .services h4 {
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.footerWrap .footer .services h4::before, .footerWrap .footer .services h4::after {
+  content: '';
+  height: 1.5px;
+  width: 400px;
+  margin: 10px 15px 10px 15px;
+  display: inline-block;
+  background: #dadada;
+}
+
+.footerWrap .footer .services ul {
+  width: 800px;
+  height: 40px;
+  margin: 0px auto;
+  margin-top: 50px;
+}
+
+.footerWrap .footer .services ul li {
+  float: left;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.footerWrap .footer .services ul li a {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.footerWrap .footer .services ul li i {
+  width: 50px;
+  height: 40px;
+  display: inline-block;
+  background: url(../static/images/sprite.png) no-repeat;
+}
+
+.footerWrap .footer .services ul li .send {
+  background-position: -623px -383px;
+}
+
+.footerWrap .footer .services ul li .pick {
+  background-position: -619px -495px;
+}
+
+.footerWrap .footer .services ul li .connect {
+  background-position: -563px -364px;
+}
+
+.footerWrap .footer .services ul li .packge {
+  background-position: -624px -105px;
+}
+
+.footerWrap .footer .bottom {
+  height: 120px;
+  width: 100%;
+}
+
+.footerWrap .footer .bottom ul {
+  width: 100%;
+  height: 60px;
+}
+
+.footerWrap .footer .bottom ul li {
+  float: left;
+  padding: 20px;
+  line-height: 60px;
+  cursor: pointer;
+}
+
+.footerWrap .footer .bottom p {
+  text-align: center;
+  line-height: 60px;
+  height: 60px;
+  clear: both;
+}
+
+.footerWrap .footer .bottom p i {
+  width: 30px;
+  height: 23px;
+  display: inline-block;
+  background: url(../static/images/sprite.png) no-repeat -490px -722px;
+}

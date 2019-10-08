@@ -1,0 +1,68 @@
+.accountWrap{
+    width:100%;
+    clear: both;
+    color:#555;
+    .account{
+        width:980px;
+        background: #d8d2d4;
+        overflow: hidden;
+        margin: 0 auto;
+        padding-top:14px;
+        border:1px solid black;
+        .login{
+            width:437px;
+            min-height:300px;
+            padding: 0 26px;
+        }
+        .register{
+            border-left: 2px dashed black;
+            min-height:300px;
+            width:437px;
+            padding: 0 26px;
+        }
+        h2{
+            font-size:26px;
+            font-weight:normal;
+            text-align: center;
+        }
+        h5{
+            font-weight: normal;
+            line-height: 16px;
+            padding-top:10px;
+        }
+        label{
+            display: block;
+            font-weight: bold;
+            line-height: 20px;
+            span{
+                color: red;
+            }
+        }
+        .calls{
+            display:inline-block;
+            width:10px;
+            height:10px;
+        }
+        input{
+            width:100%;
+            height:28px;
+            line-height: 28px;
+            display: block;
+            border:0;
+        }
+        button{
+            background:#8f010f;
+            padding:9px 36px 9px 42px;
+            color:#fff;
+            border:0;
+            margin-left:30%;
+            cursor: pointer;
+        }
+        .tips{
+            display: block;
+            width:100%;
+            height:30px;
+            color:red;
+        }
+    }
+}
